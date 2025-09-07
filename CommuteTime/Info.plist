@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>CommuteTime needs location access to detect when you arrive at and leave your defined locations.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>CommuteTime needs background location access to automatically track your commute trips even when the app is closed. This enables accurate arrival and departure detection at your defined locations.</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>CommuteTime sends notifications to confirm when location events are recorded and to remind you if no activity is detected for an extended period.</string>
+</dict>
+</plist>
